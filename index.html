@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENMARKET |ventes de produits informatique</title>
+    <link rel="icon" type="images" href="style/images/presentation/MonSiteExam.png">
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Leckerli+One&display=swap" rel="stylesheet">
+</head>
+<body >
+   
+    
+        <header class="header">
+           
+            <input type="checkbox" id="active">
+            <label for="active" class="menu_btn"><img src="style/images/presentation/menu.png" alt=""><span></span></label>
+            <label for="active" class="close"></label>
+            <div class="wrapper">
+                <ul>
+                    <li class="has-sous-nav"><a href="#accessoire">accessoire</a>
+                        <ul class="sous-nav">
+                            <li><a href="produit/informatique/accessoire/clavier.html">Clavier</a></li>
+                            <li><a href="produit/informatique/accessoire/applevision.html">Casque Vr</a></li>
+                            <li><a href="produit/informatique/accessoire/souris.html">Souris</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sous-nav"><a href="#bureau">maison et bureau</a>
+                        <ul class="sous-nav">
+                            <li><a href="produit/maison&bureau/papier.html">Papier A4</a></li>
+                            <li><a href="produit/maison&bureau/imprimante.html">Imprimante</a></li>
+                            <li><a href="produit/maison&bureau/chaise.html">Chaise</a></li>
+                            
+
+                        </ul>
+                    </li>
+                    <li class="has-sous-nav"><a href="#mode">Mode</a>
+                        <ul class="sous-nav">
+                            <li><a href="produit/mode/Homme/chaussure.html">chaussure </a></li>
+                            <li><a href="produit/mode/Femme/sac.html">Sac à main </a></li>
+                            <li><a href="produit/mode/enfant/ensemble.html">Enfant</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sous-nav"><a href="#beaute">Sante et beaute</a>
+                        <ul class="sous-nav">
+                            <li><a href="produit/Sante&etBeaute/lotion.html">Lait de corps</a></li>
+                            <li><a href="produit/Sante&etBeaute/savon.html">Savon</a></li>
+                            <li><a href="produit/Sante&etBeaute/parfum.html">Parfum</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sous-nav"><a href="#bigo">telephoneETtablette</a>
+                        <ul class="sous-nav">
+                            <li><a href="produit/telephoneETtablette/iphone.html">Iphone</a></li>
+                            <li><a href="produit/telephoneETtablette/ipad.html">Ipad</a></li>
+                            <li><a href="produit/telephoneETtablette/dell.html">ordinateur</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sous-nav"><a href="#sport">sport</a>
+                        <ul class="sous-nav">
+                            <li><a href="produit/sport/maillot.html">Maillot</a></li>
+                            <li><a href="produit/sport/corde.html">Cordes à sauter</a></li>
+                            <li><a href="produit/sport/tapis.html">tapis de sport</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                    <div class="navbar-header">
+                       <span class="navbar-brand">
+                        <a href="index.html" title="Afficher la page d'acceuil">
+                            <img src="style/images/presentation/MonSiteExam.png" alt="Logo">
+                            SENMARKET
+                        </a>
+                    </span>
+                       
+                     <form method="get" action="#" class="navbar-form">
+                        <div class="input-group">
+                            <input type="search" name="r" placeholder="Recherche" class="input-sm form-control" autofocus required>
+                            <span class="input-group-btn">
+                                 <button id="lo" type="submit" class="btn-sm btn-success" title="Rechercher">
+                                    <i class="glyphicon-search">
+                                            <img src="style/images/presentation/search.png" alt="Rechercher">
+                                    </i>
+                                 </button>
+                            </span>
+                        </div>
+                    </form>
+                    
+                </div>
+            <nav class="navbar-nav">
+                <ul class="navbar-menu">
+                    <li class="home">
+                        <a href="index.html" title="Afficher la page d'acceuil">
+                            <i class="glyphicon-home"><img src="style/images/presentation/home.png" alt="Acceuil"></i>
+                            Acceuil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./presentation/presentation.html" title="Afficher la page de presentation">
+                            <i class="glyphicon-presentation">
+                                <img src="./style/images/presentation/présentation.png" alt="icon presentation">
+                                Présentation
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./presentation/utilisateur/listenvie.html" title="Afficher mon panier">
+                            <i class="glyphicon-order"><img src="./style/images/presentation/panier.png" alt="Mon panier"></i>
+                            Panier
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./presentation/aide.html" title="Besoin d'aide?">
+                            <i class="glyphicon-help"><img src="./style/images/presentation/aide.png" alt="Aide"></i>
+                            Aide
+                        </a>
+                    </li>
+                    <li class="log">
+                    <a href="./presentation/connexion/connexion.html" title="page de connexion"><i class="glyphicon-log-in"><img src="style/images/presentation/connexion.png" alt=""></i>Se connecter</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+        <section class="ima">
+       <div id="caroussel">
+        <div class="images">
+            <a href="produit/mode/Homme/chaussure.html"><img src="style/images/produit/mode/Homme/airforce.webp" alt="chaussure"></a>
+           <a href="produit/maison&bureau/imprimante.html"> <img src="style/images/produit/informatique/accessoire/imprimante.jpg" alt="imprimante"></a>
+           <a href="produit/Sante&etBeaute/lotion.html"><img src="style/images/produit/Sante&etBeaute/diwslide.jpg" alt="lait de corps"></a>
+           <a href="produit/sport/maillot.html"> <img src="style/images/produit/telephoneETtablette/mal1.jpg" alt="casque vr"></a>
+        </div>
+       </div>
+    </section>
+   <section class="produit">
+    <h1>Vos <span>accessoires</span></h1>
+    <div class="gallery" id="accessoire">
+        <div class="content">
+            <a href="produit/informatique/accessoire/clavier.html"><img src="style/images/produit/informatique/accessoire/clav5.jpg" alt=""></a> 
+            <h2>Clavier</h2>
+            <p>SteelSeries Apex en aluminium de qualité aéronautique</p>
+           
+            <button  class="buy-1"><a href="produit/informatique/accessoire/clavier.html">Acheter maintenant</a></button>
+
+
+        </div>
+        <div class="content">
+          <a href="produit/informatique/accessoire/souris.html"><img src="style/images/produit/informatique/accessoire/souris.jpg" alt=""></a> 
+            <h2>Souris</h2>
+            <p>Souris de jeu MMO Redragon M908 Impact RGB LED avec 12 boutons.</p>
+            
+            <button class="buy-2"><a href="produit/informatique/accessoire/souris.html">Acheter maintenant</a></button>
+        </div>
+        <div class="content">
+            <a href="produit/informatique/ordinateur/applevisionpro.html"><img src="style/images/produit/informatique/accessoire/vr casque.jpg " alt=""></a> 
+            <h2> AR VR Casque</h2>
+            <p>Vision Pro fusionne parfaitement le contenu numérique avec votre espace</p>
+           
+            <button class="buy-3"><a href="produit/informatique/accessoire/applevision.html">Acheter maintenant</a></button>
+            
+
+        </div>
+    </div>
+    </section>
+    <section class="produit" id="bureau">
+    <h1>Pour vos <span>Maison et Bureau</span></h1>
+    <div class="gallery">
+       
+        <div class="content">
+            <a href="produit/maison&bureau/papier.html"><img src="style/images/produit/maison&bureau/papiera4.jpg" alt=""></a> 
+            <h2>Papier A4</h2>
+            <p>Papier de format A4 pour vos besoin de bureau</p>
+           
+            <button  class="buy-1"><a href="produit/maison&bureau/papier.html">Acheter maintenant</a></button>
+
+
+        </div>
+   
+
+    
+       
+        <div class="content">
+          <a href="produit/maison&bureau/chaise.html"><img src="style/images/produit/maison&bureau/chaise.webp" alt=""></a> 
+            <h2>Chaise</h2>
+            <p>Chaise en mousse tres confortable parfait pour votre posterieur.</p>
+            
+            <button class="buy-2"><a href="produit/maison&bureau/chaise.html">Acheter maintenant</a></button>
+            
+
+        </div>
+   
+
+  
+       
+        <div class="content">
+            <a href="produit/maison&bureau/imprimante.html"><img src="style/images/produit/maison&bureau/impri.webp" alt=""></a> 
+            <h2>Imprimante</h2>
+            <p>Imprimante Canon parfait pour vos besoins du quotidien.</p>
+           
+            <button class="buy-3"><a href="produit/maison&bureau/imprimante.html">Acheter maintenant</a></button>
+            
+
+        </div>
+    </div>
+    </section>
+    <section class="produit">
+    <h1>Nos articles de <span>Mode</span></h1>
+    <div class="gallery">
+       
+        <div class="content" id="mode">
+            <a href="produit/mode/Homme/chaussure.html"><img src="style/images/produit/mode/Homme/lv shoes.jpg" alt=""></a> 
+            <h2>Chaussure:Air force 1</h2>
+            <p>Chaussure Nike Tendance le match parfait avec vos Outfit</p>
+           
+            <button  class="buy-1"><a href="produit/mode/Homme/chaussure.html">Acheter maintenant</a></button>
+
+
+        </div>
+   
+
+    
+       
+        <div class="content">
+          <a href="produit/mode/Femme/sac.html"><img src="style/images/produit/mode/Femme/hermes.jpg" alt=""></a> 
+            <h2>Sac à main Hermes</h2>
+            <p>Sac à main Hermes fait en peau de crocodile tres classe</p>
+           
+            <button class="buy-2"><a href="produit/mode/Femme/sac.html">Acheter maintenant</a></button>
+            
+
+        </div>
+   
+
+  
+       
+        <div class="content">
+            <a href="produit/mode/enfant/ensemble.html"><img src="style/images/produit/mode/enfant/enfant.jpg " alt=""></a> 
+            <h2>Ensemble pour Enfant</h2>
+            <p>Ensemble veste et pantalon pour enfant </p>
+            
+            <button class="buy-3"><a href="produit/mode/enfant/ensemble.html">Acheter maintenant</a></button>
+            
+
+        </div>
+    </div>
+    </section>
+    <section class="produit" id="beaute">
+    <h1>Nos produits de <span>Santé et Beauté</span></h1>
+    <div class="gallery">
+       
+        <div class="content">
+            <a href="produit/Sante&etBeaute/lotion.html"><img src="style/images/produit/Sante&etBeaute/laitdecorps.jpg" alt=""></a> 
+            <h2>Lait de corps Mixa</h2>
+            <p> Lotion de corps parfait pour la peau sensible</p>
+            
+            <button  class="buy-1"><a href="produit/Sante&etBeaute/lotion.html">Acheter maintenant</a></button>
+
+
+        </div>
+   
+
+    
+       
+        <div class="content">
+          <a href="produit/Sante&etBeaute/parfum.html"><img src="style/images/produit/Sante&etBeaute/parfum (1).jpg" alt=""></a> 
+            <h2>Parfum Dior</h2>
+            <p>Parfum dior pour femme  qui aime se sentir belle.</p>
+           
+            <button class="buy-2"><a href="produit/Sante&etBeaute/parfum.html">Acheter maintenant</a></button>
+            
+
+        </div>
+   
+
+  
+       
+        <div class="content">
+            <a href="produit/Sante&etBeaute/savon.html"><img src="style/images/produit/Sante&etBeaute/savon.jpg " alt=""></a> 
+            <h2>Savon de Marseille</h2>
+            <p>Vrai savon de marseille fabriqué à l'ancienne.</p>
+            
+            <button class="buy-3"><a href="produit/Sante&etBeaute/savon.html">Acheter maintenant</a></button>
+            
+
+        </div>
+    </div>
+    </section>
+    <section class="produit" id="bureau">
+        <h1>Nos <span>Téléphone et Tablette </span></h1>
+        <div class="gallery">
+           
+            <div class="content">
+                <a href="produit/telephoneETtablette/iphone.html"><img src="style/images/produit/telephoneETtablette/iphone15.jpg" alt=""></a> 
+                <h2>Iphone 15</h2>
+                <p>Iphone 15 avec la toute derniere a16 bionic qui offre des performance inegalées.</p>
+               
+                <button  class="buy-1"><a href="produit/telephoneETtablette/iphone.html">Acheter maintenant</a></button>
+    
+    
+            </div>
+       
+    
+        
+           
+            <div class="content">
+              <a href="produit/telephoneETtablette/ipad.html"><img src="style/images/produit/telephoneETtablette/ipad3.jpg" alt=""></a> 
+                <h2>Ipad Pro</h2>
+                <p>Ipad pro 15 pouces parfait pour regarder vos series</p>
+                
+                <button class="buy-2"><a href="produit/telephoneETtablette/ipad.html">Acheter maintenant</a></button>
+                
+    
+            </div>
+       
+    
+      
+           
+            <div class="content">
+                <a href="produit/telephoneETtablette/dell.html"><img src="style/images/produit/telephoneETtablette/dell alien.jpg" alt=""></a> 
+                <h2>Alienware</h2>
+                <p>Ordinateur Dell Alienware tres puissant optmisé pour le gaming.</p>
+                
+                <button class="buy-3"><a href="produit/telephoneETtablette/dell.html">Acheter maintenant</a></button>
+                
+    
+            </div>
+        </div>
+        </section>
+    <section class="produit" id="sport">
+        <h1>Nos Articles de  <span>Sport</span></h1>
+        <div class="gallery">
+           
+            <div class="content">
+                <a href="produit/sport/corde.html"><img src="style/images/produit/sport/corde.jpg" alt=""></a> 
+                <h2>Corde à Sauter</h2>
+                <p>Corde à sauter resistant parfait pour vos sceance de sport.</p>
+               
+                <button  class="buy-1"><a href="produit/sport/corde.html">Acheter maintenant</a></button>
+    
+    
+            </div>
+       
+    
+        
+           
+            <div class="content">
+              <a href="produit/sport/maillot.html"><img src="style/images/produit/sport/maillot.jpg" alt=""></a> 
+                <h2>Maillot du Senegal</h2>
+                <p>Maillot de l'equipe Senegal en edition limitée.</p>
+               
+                <button class="buy-2"><a href="produit/sport/maillot.html">Acheter maintenant</a></button>
+                
+    
+            </div>
+       
+    
+      
+           
+            <div class="content">
+                <a href="produit/sport/tapis.html"><img src="style/images/produit/sport/tapis.jpg" alt=""></a> 
+                <h2>Tapis de Sport</h2>
+                <p>Tapis de sport ideale pour vos sceance de gymnastique ou de yoga.</p>
+                
+                <button class="buy-3"><a href="produit/sport/tapis.html">Acheter maintenant</a></button>
+                
+    
+            </div>
+        </div>
+       
+        </section>
+
+        
+        
+
+
+   
+       
+</body>
+<footer class="footer">
+<div class="containerf">
+     <div class="foot-1">
+          <h1>Nos réseaux</h1>
+          <address class="foot-adresse">
+           <div class="sociaux">
+                    <a href="https://www.instagram.com/khalifatouree?igsh=MXM2YnlmOWppeXQ2Mw%3D%3D&utm_source=qr" title="Cliquer ici pour afficher la page d'instagram" target="_blank">
+                        <i class="icon-instagram">
+                             <img src="style/images/presentation/instagram.png" alt="Suivez-nous sur Instagram">
+                        </i>
+                    </a>
+                     <a href="tweeter.com" title="Cliquer ici pour afficher la page twitter" target="_blank">
+                        <i class="icon-twitter">
+                            <img src="style/images/presentation/tweet.png" alt="Suivez-nous sur Twitter">
+                        </i>
+                     <a href="https://wa.me/221705460289" title="Cliquer ici pour afficher la page whatsapp" target="_blank">
+                        <i class="icon-whatsapp">
+                             <img src="style/images/presentation/whatsapp.png" alt="Ecrivez-nous sur Whatsapp">
+                        </i>
+                     </a>
+                </div>
+                <br>
+                <br>
+                <div class="adresse">
+                     <a href="mailto:tourekhalifa17@icloud.com" title="Cliquer ici pour nous envoyer un mail">
+                        <i class="icon-mail">
+                            <img src="style/images/presentation/mail.png" alt="E-mail">
+                        </i>
+                        tourekhalifa17@icloud.com
+                    </a>
+                    <br><br>
+                    <a href="https://maps.app.goo.gl/eqoAPPWSCbbzGeNb9" target="_blank">
+                        <i class="icon-map">
+                            <img src="style/images/presentation/localisa.png" alt="Adresse:">
+                        </i>
+                        KM1 Av. Cheikh Anta Diop, Dakar 28110
+                     </a>
+                    </div>
+                </address>
+            </div>
+            <div class="foot-2">
+                <h1>Liens rapides</h1>
+                <div class="quick-link">
+                    <a href="index.html" title="Afficher la page d'acceuil" role="button">
+                        Acceuil
+                    </a>
+                    <br><br><br>
+                    <a href="./presentation/presentation.html" title="Afficher la page de presentation">
+                        Présentation
+                    </a>
+                    <br><br><br>
+                    <a href="./presentation/connexion/connexion.html" title="Afficher la page de connexion">
+                        Se connecter
+                    </a>
+                    <br><br><br>
+                    <a href="presentation/aide.html" title="Afficher la page des produits">
+                        Aide
+                    </a>
+                </div>
+            </div>
+</div>
+</footer>
+
+
+
+</html>
